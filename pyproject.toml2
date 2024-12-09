@@ -2,7 +2,7 @@
 name = "CryptoApi"
 version = "0.1.0"
 description = "CryptoAPI is a powerful Python library designed to simplify interaction with various cryptocurrency APIs. (Binance REST and WebSockets)"
-authors = ["ktercjak0@gmail.com"]
+authors = ["Konrad Tercjak <ktercjak0@gmail.com>"]
 readme = "README.md"
 packages = [{include = "CryptoApi"}]
 license = "APACHE 2.0"
@@ -12,9 +12,7 @@ python = "^3.8"
 numpy = "^2.1.3"
 requests = "^2.32.3"
 websocket_client="^1.8.0"
-
 pydantic="^2.10.3"
-enum
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.0"
@@ -24,4 +22,4 @@ mypy = "^1.8.0"
 
 [build-system]
 requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"]
+build-backend = "poetry.core.masonry.api"
