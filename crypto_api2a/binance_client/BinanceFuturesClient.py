@@ -3,8 +3,8 @@ from typing import Annotated, Final, Optional, List, Dict, Any
 
 import requests
 
-from binance_client import BinanceAuth
-from model.models import  OrderSide, OrderType, TimeInForce
+from crypto_api2.binance_client import BinanceAuth
+from crypto_api2.model.models import OrderSide, OrderType, TimeInForce
 
 
 BINANCE_URLS: Final = {

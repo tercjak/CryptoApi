@@ -2,7 +2,8 @@ from enum import Enum
 from typing import Dict, Optional, List
 from pydantic import BaseModel, Field
 
-from model.FiltersDataBinance import LotSizeFilter, PriceFilter
+from crypto_api2.model.FiltersDataBinance import LotSizeFilter, PriceFilter
+
 
 class OrderSide(str, Enum):
     BUY = "BUY"

@@ -1,8 +1,9 @@
 import numpy as np
-from binance_client.BinanceAuth import BinanceAuth
-from binance_client.BinanceFuturesClient import BinanceFuturesClient
-from binance_client.BinanceTrader import BinanceTrader
-from model.models import OrderSide,OrderType, TicketRow
+
+from crypto_api2.binance_client.BinanceAuth import BinanceAuth
+from crypto_api2.binance_client.BinanceFuturesClient import BinanceFuturesClient
+from crypto_api2.binance_client.BinanceTrader import BinanceTrader
+from crypto_api2.model.models import OrderSide,OrderType, TicketRow
 import asyncio
 import sys
 import os

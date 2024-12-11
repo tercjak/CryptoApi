@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='crypto_api',
-    version='0.1.0',
+    name='crypto_api2a',
+    version='0.1.2',
     author='Konrad Tercjak',
     author_email='ktercjak0@gmail.com',
     description='CryptoAPI is a powerful Python library designed to simplify interaction with various cryptocurrency APIs. (Binance REST and WebSockets)',

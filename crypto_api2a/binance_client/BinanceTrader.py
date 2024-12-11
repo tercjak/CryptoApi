@@ -2,11 +2,11 @@ import json
 from typing import Callable, Dict, List, Optional
 
 from pydantic import BaseModel
-from binance_client import BinanceAuth
-from binance_client.BinanceFuturesClient import BinanceFuturesClient
+from crypto_api2.binance_client import BinanceAuth
+from crypto_api2.binance_client.BinanceFuturesClient import BinanceFuturesClient
 
-from binance_client.BinanceWSClient import BinanceWSClient
-from model.models import MarketDataItem, TicketRow,OrderType,OrderSide
+from crypto_api2.binance_client.BinanceWSClient import BinanceWSClient
+from crypto_api2.model.models import MarketDataItem, TicketRow,OrderType,OrderSide
 
 
 class BinanceTrader() :

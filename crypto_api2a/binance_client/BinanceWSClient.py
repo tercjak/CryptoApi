@@ -3,7 +3,8 @@ from typing import Callable, List,Dict
 
 import websocket
 
-from model.models import TicketRow
+from crypto_api2.model.models import TicketRow
+
 
 
 
